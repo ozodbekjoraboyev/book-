@@ -15,7 +15,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/" element={<App />} />
         <Route path="/cardinfo/:_id" element={<CardCompanent />} />
         <Route path="/buyurtmamadali" element={<BuyurtmaMadali />}/>
-        <Route path="/kitoblar" element={<Kitoblartoplami />} />
+        <Route path="/kitoblar" element={<Kitoblartoplami  />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
